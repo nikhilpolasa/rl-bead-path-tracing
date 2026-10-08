@@ -1,0 +1,93 @@
+{
+  "benchmark": "data/benchmarks/ood_circle.jpg",
+  "episodes": 20,
+  "seed_base": 12000,
+  "cross_pipeline_note": "Use sequential/geometric coverage and tracking error for cross-pipeline comparison. Reward functions differ and reward values are not directly comparable.",
+  "sac_dagger": {
+    "mean": {
+      "reward": 59.0628514507369,
+      "sequential": 0.653295128939828,
+      "geom05": 0.36271428571428566,
+      "geom10": 0.5098571428571429,
+      "geom15": 0.5685714285714287,
+      "rmse": 0.08404875881024217,
+      "mean_error": 0.06253950457399692,
+      "p95_error": 0.1688025247275155,
+      "max_error": 0.18778390306647896,
+      "steps": 2000.0,
+      "cte_rmse": 3.297269081604302,
+      "cte_max": 9.466159859568274
+    },
+    "std": {
+      "reward": 0.1924678111730656,
+      "sequential": 1.1102230246251565e-16,
+      "geom05": 0.005888418241578558,
+      "geom10": 0.00473588127264307,
+      "geom15": 0.00951904642797582,
+      "rmse": 0.0005332638664977744,
+      "mean_error": 0.000516120385151259,
+      "p95_error": 0.0007788056540067069,
+      "max_error": 0.003045606090077945,
+      "steps": 0.0,
+      "cte_rmse": 0.004279257684578963,
+      "cte_max": 0.021466517455592367
+    }
+  },
+  "ppo_single": {
+    "mean": {
+      "sequential": 0.2655,
+      "geom05": 0.0861,
+      "geom10": 0.1666,
+      "geom15": 0.2193,
+      "rmse": 0.1886,
+      "mean_error": 0.1433,
+      "p95_error": 0.3809,
+      "max_error": 0.3882,
+      "reward": -69.35,
+      "steps": 1090.0
+    },
+    "std": {
+      "sequential": 0.1378,
+      "geom05": 0.0346,
+      "geom10": 0.0699,
+      "geom15": 0.0783,
+      "rmse": 0.0696,
+      "mean_error": 0.0487,
+      "p95_error": 0.1475,
+      "max_error": 0.143,
+      "reward": 40.96,
+      "steps": 345.0
+    },
+    "source": "historical comparison log; values preserved at printed precision because the JSON was later overwritten without this aggregate"
+  },
+  "ppo_multishape": {
+    "mean": {
+      "reward": 15.950480971811672,
+      "sequential": 0.5300859598853869,
+      "geom05": 0.1792857142857143,
+      "geom10": 0.43142857142857133,
+      "geom15": 0.5208571428571429,
+      "rmse": 0.11545656604613194,
+      "mean_error": 0.09634413890897531,
+      "p95_error": 0.21109255663221743,
+      "max_error": 0.21289962001494556,
+      "steps": 1860.15,
+      "cte_rmse": 4.690669849257362,
+      "cte_max": 11.818003693183933
+    },
+    "std": {
+      "reward": 0.45105555715971507,
+      "sequential": 0.0,
+      "geom05": 0.012117620834713287,
+      "geom10": 0.015933535421255644,
+      "geom15": 0.0013093073414159702,
+      "rmse": 0.0007589749287563702,
+      "mean_error": 0.0015412247115233714,
+      "p95_error": 0.0008662777584494069,
+      "max_error": 0.0008679540744399513,
+      "steps": 1.681517172080024,
+      "cte_rmse": 0.008465862665902902,
+      "cte_max": 0.003876501099301564
+    }
+  }
+}

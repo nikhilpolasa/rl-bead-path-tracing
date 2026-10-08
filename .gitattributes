@@ -1,0 +1,10 @@
+# Keep GitHub language statistics focused on the research code.
+data/** linguist-vendored
+models/** linguist-vendored
+results/raw/** linguist-generated
+assets/** linguist-generated
+
+*.zip binary
+*.jpg binary
+*.jpeg binary
+*.png binary

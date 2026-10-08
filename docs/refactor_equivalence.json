@@ -1,0 +1,32 @@
+{
+  "sac_environment": {
+    "archived_source": "environment.py",
+    "clean_source": "src/bead_rl/core.py",
+    "benchmarks": [
+      "training_square.jpeg",
+      "ood_circle.jpg",
+      "hollow_star.jpg"
+    ],
+    "fixed_action_steps_per_benchmark": 80,
+    "max_path_coordinate_difference": 0.0,
+    "max_reset_observation_difference": 0.0,
+    "max_step_observation_difference": 0.0,
+    "max_step_reward_difference": 0.0,
+    "termination_or_coverage_mismatches": 0
+  },
+  "ppo_environment": {
+    "archived_source": "environment_paper_draft.py",
+    "clean_source": "src/bead_rl/ppo_legacy.py",
+    "benchmarks": [
+      "training_square.jpeg",
+      "ood_circle.jpg"
+    ],
+    "fixed_action_steps_per_benchmark": 80,
+    "max_path_coordinate_difference": 0.0,
+    "max_reset_observation_difference": 0.0,
+    "max_step_observation_difference": 0.0,
+    "max_step_reward_difference": 0.0,
+    "termination_or_coverage_mismatches": 0
+  },
+  "note": "Comparison executed directly against the archived source in the cleanup environment. This verifies the refactor for the tested trajectories; it is not a formal proof for every reachable state."
+}

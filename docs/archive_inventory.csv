@@ -1,0 +1,17 @@
+category,file_count,public_repo_disposition
+historical_dataset,1000,kept verbatim under data/closed_shapes_dataset
+future_unused_dataset,1001,omitted because not used in reported experiments
+historical_source,27,refactored into src/ and scripts/
+cache,21,omitted
+experiment_result,11,kept selectively under results/raw with explicit names
+model_checkpoint,7,kept verbatim under models with descriptive names
+backup_duplicate,6,omitted
+auxiliary_image,6,omitted unless needed as benchmark/figure
+intermediate_checkpoint,6,omitted; key 3M/best/extended checkpoints retained
+tensorboard_log,4,omitted
+generated_media,3,omitted; representative PNGs retained
+vecnormalize_state,3,omitted from focused public repository
+external_reference_extract,2,omitted
+historical_notes,1,superseded by README/config/docs
+historical_dependencies,1,superseded by pyproject and requirements files
+external_reference_paper,1,omitted because third-party

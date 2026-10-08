@@ -1,0 +1,142 @@
+{
+  "ppo_multishape_3m_final.zip": {
+    "sha256": "115e949ee1714f1e3548075b47a0aa0ba9e8a39241c510e0371879d12a76ad6d",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 3006464,
+    "observation_shape": [
+      25
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "buffer_size": null,
+    "batch_size": 512,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "ent_coef": 0.005,
+    "vf_coef": 0.5,
+    "seed": null
+  },
+  "ppo_multishape_best.zip": {
+    "sha256": "b0b67a5b50aed64c92192681266d0b19e1b28d85605779013f91b8879ff1b4ca",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 5400004,
+    "observation_shape": [
+      25
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 5e-05,
+    "gamma": 0.99,
+    "buffer_size": null,
+    "batch_size": 512,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "ent_coef": 0.005,
+    "vf_coef": 0.5,
+    "seed": null
+  },
+  "ppo_multishape_extended_final.zip": {
+    "sha256": "31056a4e24e5592abb36e77595d234edb11f62efa0cce33f2223f0849f57a0b5",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 5706464,
+    "observation_shape": [
+      25
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 5e-05,
+    "gamma": 0.99,
+    "buffer_size": null,
+    "batch_size": 512,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "ent_coef": 0.005,
+    "vf_coef": 0.5,
+    "seed": null
+  },
+  "ppo_single_best.zip": {
+    "sha256": "becf126eb83efed43bf11b53517fe6e66836b78e8170eda9251d9d4353c7c14b",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 200000,
+    "observation_shape": [
+      25
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 0.0005,
+    "gamma": 0.99,
+    "buffer_size": null,
+    "batch_size": 512,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "seed": null
+  },
+  "ppo_single_final.zip": {
+    "sha256": "5702f08664e812fd2dc47f5bc9288c8ce0e4bdb0a9847426ec88bbd9c580d006",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 507904,
+    "observation_shape": [
+      25
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 0.0005,
+    "gamma": 0.99,
+    "buffer_size": null,
+    "batch_size": 512,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "seed": null
+  },
+  "sac_base_95.zip": {
+    "sha256": "c9a3612dac27f2878888a4847b2d9e92bf99f4125df7b7f485466a86f56a9020",
+    "stable_baselines3": "2.8.0",
+    "num_timesteps": 30000,
+    "observation_shape": [
+      16
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 5e-05,
+    "gamma": 0.995,
+    "buffer_size": 200000,
+    "batch_size": 256,
+    "n_steps": 1,
+    "n_epochs": null,
+    "ent_coef": 0.0005,
+    "vf_coef": null,
+    "seed": 42
+  },
+  "sac_dagger_final.zip": {
+    "sha256": "2d6195911ebd04cdfbc174c8cfac547c0e92d572a70d7be21fc00311f58bc20f",
+    "stable_baselines3": "2.9.0",
+    "num_timesteps": 30000,
+    "observation_shape": [
+      16
+    ],
+    "action_shape": [
+      2
+    ],
+    "learning_rate": 5e-05,
+    "gamma": 0.995,
+    "buffer_size": 200000,
+    "batch_size": 256,
+    "n_steps": 1,
+    "n_epochs": null,
+    "ent_coef": 0.0005,
+    "vf_coef": null,
+    "seed": 42
+  }
+}

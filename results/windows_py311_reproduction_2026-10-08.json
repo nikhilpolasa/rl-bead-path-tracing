@@ -1,0 +1,60 @@
+{
+  "environment": {
+    "os": "Windows",
+    "python": "3.11.5",
+    "pytest": "9.1.1",
+    "numpy": "2.1.3",
+    "gymnasium": "1.3.0",
+    "stable_baselines3": "2.9.0",
+    "torch": "2.11.0"
+  },
+  "artifact_verification": {
+    "checkpoint_hashes": 7,
+    "dataset_images": 1000,
+    "status": "passed"
+  },
+  "tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "evaluations": {
+    "sac_dagger_ood_circle": {
+      "episodes": 20,
+      "seed_base": 12000,
+      "sequential": 0.653295128939828,
+      "geom10": 0.5098571428571429,
+      "rmse": 0.08404875987945663,
+      "reward": 59.062850682085845
+    },
+    "sac_dagger_training_square": {
+      "episodes": 20,
+      "seed_base": 12000,
+      "sequential": 0.9914040114613177,
+      "geom10": 0.905,
+      "rmse": 0.05009389064228699,
+      "reward": 145.02960318934532
+    },
+    "ppo_single_ood_circle": {
+      "episodes": 20,
+      "seed_base": 12000,
+      "sequential": 0.2654727793696275,
+      "geom10": 0.16657142857142856,
+      "rmse": 0.18860379872322328,
+      "reward": -69.34601039703482
+    },
+    "ppo_multishape_ood_circle": {
+      "episodes": 20,
+      "seed_base": 12000,
+      "sequential": 0.7007163323782235,
+      "geom10": 0.4481428571428571,
+      "rmse": 0.11298417191843442,
+      "reward": 32.03290191198935
+    }
+  },
+  "notes": [
+    "SAC+DAgger OOD-circle reproduction matches the archived aggregate essentially exactly.",
+    "Single-shape PPO OOD-circle reproduction matches the historical aggregate essentially exactly.",
+    "Multi-shape PPO geometric coverage and RMSE are close to the archived aggregate, but sequential coverage is materially higher in the clean reproduction. Because sequential coverage is waypoint-index based and known to be sensitive/gameable, both values are preserved rather than reconciled.",
+    "The clean SAC+DAgger training-square reproduction is strong but differs from the archived standalone aggregate; the historical OpenCV version and exact standalone evaluation utility state were not recoverable from the checkpoint."
+  ]
+}

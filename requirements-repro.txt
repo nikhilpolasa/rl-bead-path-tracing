@@ -1,0 +1,8 @@
+# Versions embedded in the final SAC+DAgger model's SB3 system_info.txt.
+# OpenCV/Matplotlib versions were not recorded in the historical checkpoint.
+numpy==2.1.3
+gymnasium==1.3.0
+stable-baselines3==2.9.0
+torch==2.11.0
+opencv-python>=4.8,<5
+matplotlib>=3.8,<4

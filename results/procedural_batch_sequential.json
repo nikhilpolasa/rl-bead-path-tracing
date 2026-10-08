@@ -1,0 +1,41 @@
+{
+  "note": "Values transcribed from the original batch_test_results.png. `Cov` in that plot is sequential waypoint coverage, not projection-based geometric coverage.",
+  "shapes": [
+    {
+      "shape": "triangle",
+      "sequential": 0.991,
+      "steps": 1080,
+      "reward": 147.1
+    },
+    {
+      "shape": "ellipse",
+      "sequential": 0.991,
+      "steps": 1715,
+      "reward": 150.7
+    },
+    {
+      "shape": "rotated_square",
+      "sequential": 0.991,
+      "steps": 1739,
+      "reward": 134.7
+    },
+    {
+      "shape": "pentagon",
+      "sequential": 1.0,
+      "steps": 1949,
+      "reward": 144.7
+    },
+    {
+      "shape": "square",
+      "sequential": 0.991,
+      "steps": 1106,
+      "reward": 149.8
+    },
+    {
+      "shape": "circle",
+      "sequential": 0.991,
+      "steps": 1707,
+      "reward": 149.9
+    }
+  ]
+}

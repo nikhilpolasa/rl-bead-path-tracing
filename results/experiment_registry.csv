@@ -1,0 +1,10 @@
+benchmark,model,checkpoint,episodes,sequential,geom10,rmse,source,caveat
+training_square,SAC+DAgger,models/sac_dagger_final.zip,20,0.9826635213911666,0.9558563241915679,0.03245659927104314,archived complete_model_evaluation.csv,in-distribution standalone evaluation
+hollow_star,SAC+DAgger,models/sac_dagger_final.zip,20,0.8624641833810889,0.7164285714285714,0.06077267788738128,archived star_test_results.csv,sharp-vertex stress test
+ood_circle,SAC+DAgger,models/sac_dagger_final.zip,20,0.653295128939828,0.5098571428571429,0.08404875881024217,archived comparison_results.json,cross-pipeline rewards not comparable
+ood_circle,Single-shape PPO,models/ppo_single_final.zip,20,0.2655,0.1666,0.1886,historical comparison log,cross-pipeline rewards not comparable
+ood_circle,Multi-shape PPO,models/ppo_multishape_best.zip,20,0.5300859598853869,0.43142857142857133,0.11545656604613194,archived comparison_results.json,cross-pipeline rewards not comparable
+training_square,SAC+DAgger,models/sac_dagger_final.zip,20,0.9914040114613177,0.905,0.05009389064228699,clean Windows Python 3.11.5 reproduction,historical OpenCV/exact evaluator state unavailable
+ood_circle,SAC+DAgger,models/sac_dagger_final.zip,20,0.653295128939828,0.5098571428571429,0.08404875987945663,clean Windows Python 3.11.5 reproduction,essentially exact archived match
+ood_circle,Single-shape PPO,models/ppo_single_final.zip,20,0.2654727793696275,0.16657142857142856,0.18860379872322328,clean Windows Python 3.11.5 reproduction,essentially exact historical match
+ood_circle,Multi-shape PPO,models/ppo_multishape_best.zip,20,0.7007163323782235,0.4481428571428571,0.11298417191843442,clean Windows Python 3.11.5 reproduction,sequential differs from archived aggregate; geometry/RMSE close

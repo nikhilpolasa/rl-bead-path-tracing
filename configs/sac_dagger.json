@@ -1,0 +1,22 @@
+{
+  "source": "train_complete_v8.py from archived BTP folder",
+  "success_coverage": 0.99,
+  "expert_anchor_episodes": 8,
+  "anchor_epochs": 8,
+  "anchor_learning_rate": 0.0001,
+  "dagger_rounds": 6,
+  "dagger_episodes_per_round": 4,
+  "expert_mixing_beta": [0.50, 0.25, 0.10, 0.05, 0.00, 0.00],
+  "actor_epochs_per_round": 6,
+  "actor_learning_rate_early": 0.0001,
+  "actor_learning_rate_late": 0.00005,
+  "selection_score": "0.70*geom10 + 0.20*sequential - 0.10*rmse",
+  "early_stop": {
+    "consecutive_passes": 2,
+    "sequential_min": 0.99,
+    "geom10_min": 0.95,
+    "rmse_max": 0.05,
+    "reward_min": 100,
+    "reward_max": 200
+  }
+}

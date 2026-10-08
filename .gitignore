@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Generated training artifacts.
+results/checkpoints/
+results/generated/
+data/generated_*/
+*.log
+*.mp4
+*.gif
+
+# Local experiment outputs.
+wandb/
+runs/
+tb_logs/
+paper_ppo_tb/

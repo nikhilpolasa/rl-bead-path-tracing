@@ -1,0 +1,14 @@
+{
+  "train": {
+    "count": 700,
+    "aggregate_sha256": "fc84d10e83a4738164f5ba7e83ea803eb080d7924cbcdac0049f31cdebced598"
+  },
+  "val": {
+    "count": 150,
+    "aggregate_sha256": "646e411d67efb6ec83000a52a67f492fa3a37a8bc6366ac5473fd5c46ce33185"
+  },
+  "test": {
+    "count": 150,
+    "aggregate_sha256": "48b3dd7827a33c08ce31d0a6a52009e58af6efdb2ff261861a6e2dbc9a877e74"
+  }
+}

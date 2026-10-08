@@ -1,0 +1,19 @@
+{
+  "source": "Recovered from FINAL_BTP_MODEL_95pct.zip checkpoint metadata plus historical README",
+  "algorithm": "SAC",
+  "timesteps": 30000,
+  "success_coverage": 0.95,
+  "learning_rate": 0.00005,
+  "buffer_size": 200000,
+  "learning_starts": 0,
+  "batch_size": 256,
+  "tau": 0.005,
+  "gamma": 0.995,
+  "train_freq_steps": 1,
+  "gradient_steps": 1,
+  "ent_coef": 0.0005,
+  "target_update_interval": 1,
+  "actor_network": [128, 128],
+  "critic_network": [128, 128],
+  "seed": 42
+}
