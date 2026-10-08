@@ -20,3 +20,5 @@ wandb/
 runs/
 tb_logs/
 paper_ppo_tb/
+
+*.egg-info/
