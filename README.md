@@ -1,6 +1,6 @@
 # Reinforcement Learning for Autonomous Bead Path Tracing
 
-An individual, faculty-supervised B.Tech research project on **continuous-control reinforcement learning for tracing closed contours extracted directly from raster images**.
+A faculty-supervised B.Tech research project on **continuous-control reinforcement learning for tracing closed contours extracted directly from raster images**.
 
 The project began with a single-contour PPO baseline that appeared successful on its training shape but failed to transfer. That failure motivated a stricter geometric evaluation protocol, a procedurally generated multi-shape curriculum, and a final **Soft Actor-Critic (SAC) + Dataset Aggregation (DAgger)** actor-refinement pipeline.
 
